@@ -4,6 +4,7 @@ import IntroPic from "../../element/IntroPic";
 import TextIntro from "./sections/TextIntro";
 import ProjectsSection from "./sections/ProjectsSection";
 import PicturesSection from "./sections/PicturesSection";
+import AnimationSection from "./sections/AnimationSection";
 
 const Container = styled.div`
   overflow-x: hidden;
@@ -95,6 +96,7 @@ function Home() {
       </ContainerElement>
       <ProjectsSection />
       <PicturesSection />
+      <AnimationSection />
     </Container>
   );
 }
