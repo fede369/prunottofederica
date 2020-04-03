@@ -3,8 +3,6 @@ import styled from "@emotion/styled";
 
 const Container = styled.div`
   position: absolute;
-  width: auto;
-  height: auto;
   display: inline;
   overflow: hidden;
   color: white;
