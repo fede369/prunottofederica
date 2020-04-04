@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Home from "./pages/home/Home";
 import Projects from "./pages/projects/Projects";
 import Pictures from "./pages/pictures/Pictures";
+import Animations from "./pages/animations/Animations";
 import About from "./pages/about/About";
 import WhereIAm from "./pages/whereiam/WhereIAm";
 import Remikks from "./pages/projects/works/1Remikks";
@@ -42,6 +43,7 @@ export default function Main() {
         <Route exact path="/album2" component={Album2}></Route>
         <Route exact path="/album3" component={Album3}></Route>
         <Route exact path="/album4" component={Album4}></Route>
+        <Route exact path="/animations" component={Animations}></Route>
         <Route exact path="/about" component={About}></Route>
         <Route exact path="/whereiam" component={WhereIAm}></Route>
       </Switch>
