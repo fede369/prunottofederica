@@ -10,6 +10,8 @@ import UncontrolledLottieBin from '../../../element/AnimationBin';
 import UncontrolledLottieAddItem from '../../../element/AnimationAddItem';
 import UncontrolledLottieGraph from '../../../element/AnimationGraph';
 import UncontrolledLottieMusic from '../../../element/AnimationMusic';
+import { Link } from "react-router-dom";
+
 
 const Container = styled.div`
   width: auto;
@@ -62,7 +64,7 @@ const ContainerRow = styled.div`
   flex-direction: row;
   justify-content: center;
   margin-bottom: 50px;
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
@@ -74,11 +76,15 @@ const ContainerRow1 = styled.div`
   flex-direction: row;
   justify-content: center;
   margin-bottom: 50px;
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
     flex-direction: column-reverse;
     justify-content: center;
     margin-bottom: 10px;
   }
+`;
+
+const MyLink = styled(Link)`
+  text-decoration: none;
 `;
 
 
@@ -86,24 +92,26 @@ function AnimationSection() {
   return (
     <Container>
       <Title>My Animation</Title>
-      <ContainerRow>
-        <UncontrolledLottieLetter />
-        <UncontrolledLottieNotification />
-        <UncontrolledLottieLight />
-      </ContainerRow>
-      <ContainerRow1>
-        <UncontrolledLottiePhoto />
-        <UncontrolledLottieMovie />
-      </ContainerRow1>
-      <ContainerRow>
-        <UncontrolledLottieDownload />
-        <UncontrolledLottieBin />
-        <UncontrolledLottieAddItem />
-      </ContainerRow>
-      <ContainerRow1>
-        <UncontrolledLottieGraph />
-        <UncontrolledLottieMusic />
-      </ContainerRow1>
+      <MyLink to="/animations">
+        <ContainerRow>
+          <UncontrolledLottieLetter />
+          <UncontrolledLottieNotification />
+          <UncontrolledLottieLight />
+        </ContainerRow>
+        <ContainerRow1>
+          <UncontrolledLottiePhoto />
+          <UncontrolledLottieMovie />
+        </ContainerRow1>
+        <ContainerRow>
+          <UncontrolledLottieDownload />
+          <UncontrolledLottieBin />
+          <UncontrolledLottieAddItem />
+        </ContainerRow>
+        <ContainerRow1>
+          <UncontrolledLottieGraph />
+          <UncontrolledLottieMusic />
+        </ContainerRow1>
+      </MyLink>
     </Container>
   );
 }
