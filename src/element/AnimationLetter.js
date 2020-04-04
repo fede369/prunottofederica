@@ -3,6 +3,7 @@ import Lottie from "react-lottie";
 import animationData from "../assets/animation/LottieLetter.json";
 
 
+
 const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -12,9 +13,13 @@ const defaultOptions = {
     }
 };
 
+
+
 function UncontrolledLottieLetter() {
     return (
+
         <Lottie options={defaultOptions} height={200} width={350} />
+
     );
 }
 
