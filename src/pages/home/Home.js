@@ -84,6 +84,18 @@ const ContainerText = styled.div`
   }
 `;
 
+const Caption = styled.p`
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  margin: 0;
+  color: white;
+  text-align: center;
+  opacity: 0.38;
+  margin: 25px;
+`;
+
 function Home() {
   return (
     <Container>
@@ -99,6 +111,10 @@ function Home() {
       <PicturesSection />
       <AnimationSection />
       <ComponentSection />
+      <footer>
+        <Caption>© 2019 Federica Prunotto, all right reserved.</Caption>
+
+      </footer>
     </Container>
   );
 }
