@@ -206,6 +206,9 @@ export default function Menu() {
               <NavItem to="/pictures">My Pictures</NavItem>
             </LiItem>
             <LiItem>
+              <NavItem to="/animations">My Animations</NavItem>
+            </LiItem>
+            <LiItem>
               <NavItem to="/about">About Me</NavItem>
             </LiItem>
             <LiItem>
