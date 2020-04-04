@@ -104,6 +104,14 @@ const LiItem = styled.li`
     animation: fadeIn ease 0.8s forwards;
     animation-delay: 0.5s;
   }
+  :nth-child(6) {
+    animation: fadeIn ease 0.8s forwards;
+    animation-delay: 0.6s;
+  }
+  :nth-child(7) {
+    animation: fadeIn ease 0.8s forwards;
+    animation-delay: 0.7s;
+  }
 
   @keyframes fadeIn {
     0% {
@@ -123,7 +131,7 @@ const NavItem = styled(NavLink)`
   padding: 0 12px;
   text-decoration: none;
   font-family: "Khula", sans-serif;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 800;
   letter-spacing: 0px;
   color: #ffffff;
@@ -207,6 +215,9 @@ export default function Menu() {
             </LiItem>
             <LiItem>
               <NavItem to="/animations">My Animations</NavItem>
+            </LiItem>
+            <LiItem>
+              <NavItem to="/components">My Components</NavItem>
             </LiItem>
             <LiItem>
               <NavItem to="/about">About Me</NavItem>
