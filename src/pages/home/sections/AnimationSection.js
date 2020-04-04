@@ -1,6 +1,15 @@
 import React from "react";
 import styled from "@emotion/styled";
-import UncontrolledLottie from '../../../element/Animation';
+import UncontrolledLottieLetter from '../../../element/AnimationLetter';
+import UncontrolledLottieNotification from '../../../element/AnimationNotification';
+import UncontrolledLottieLight from '../../../element/AnimationLight';
+import UncontrolledLottiePhoto from '../../../element/AnimationPhoto';
+import UncontrolledLottieMovie from '../../../element/AnimationMovie';
+import UncontrolledLottieDownload from '../../../element/AnimationDownload';
+import UncontrolledLottieBin from '../../../element/AnimationBin';
+import UncontrolledLottieAddItem from '../../../element/AnimationAddItem';
+import UncontrolledLottieGraph from '../../../element/AnimationGraph';
+import UncontrolledLottieMusic from '../../../element/AnimationMusic';
 
 const Container = styled.div`
   width: auto;
@@ -78,8 +87,23 @@ function AnimationSection() {
     <Container>
       <Title>My Animation</Title>
       <ContainerRow>
-        <UncontrolledLottie />
+        <UncontrolledLottieLetter />
+        <UncontrolledLottieNotification />
+        <UncontrolledLottieLight />
       </ContainerRow>
+      <ContainerRow1>
+        <UncontrolledLottiePhoto />
+        <UncontrolledLottieMovie />
+      </ContainerRow1>
+      <ContainerRow>
+        <UncontrolledLottieDownload />
+        <UncontrolledLottieBin />
+        <UncontrolledLottieAddItem />
+      </ContainerRow>
+      <ContainerRow1>
+        <UncontrolledLottieGraph />
+        <UncontrolledLottieMusic />
+      </ContainerRow1>
     </Container>
   );
 }
