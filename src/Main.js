@@ -12,6 +12,11 @@ import PersonalWebsite from "./pages/projects/works/3PersonalWebsite";
 import AffidoAnziani from "./pages/projects/works/4AffidoAnziani";
 import DarkDreams from "./pages/projects/works/5DarkDreams";
 import Mym from "./pages/projects/works/6Mym";
+import Mise from "./pages/projects/works/7Mise";
+import Consemi from "./pages/projects/works/8Consemi";
+import Saccisica from "./pages/projects/works/9Saccisica";
+import Posterhero from "./pages/projects/works/10Posterhero";
+import DreamBoard from "./pages/projects/works/11DreamBoard";
 import Album1 from "./pages/pictures/album/Album1";
 import Album2 from "./pages/pictures/album/Album2";
 import Album3 from "./pages/pictures/album/Album3";
@@ -39,6 +44,12 @@ export default function Main() {
         <Route exact path="/affidoanziani" component={AffidoAnziani}></Route>
         <Route exact path="/darkdreams" component={DarkDreams}></Route>
         <Route exact path="/mym" component={Mym}></Route>
+        <Route exact path="/mise" component={Mise}></Route>
+        <Route exact path="/consemi" component={Consemi}></Route>
+        <Route exact path="/saccisica" component={Saccisica}></Route>
+        <Route exact path="/posterhero" component={Posterhero}></Route>
+        <Route exact path="/dreamboard" component={DreamBoard}></Route>
+
         <Route exact path="/pictures" component={Pictures}></Route>
         <Route exact path="/album1" component={Album1}></Route>
         <Route exact path="/album2" component={Album2}></Route>
