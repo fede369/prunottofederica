@@ -17,7 +17,6 @@ const TextBox = styled.div`
   padding-bottom: 10px;
   display: flex;
   flex-direction: column;
-  just-content: center;
   @media (min-width: 569px) and (max-width: 1279px) {
     padding-left: 50px;
   }
@@ -75,9 +74,13 @@ const AboutContainer = styled.div`
   @media (max-width: 799.99px) {
     margin-left: 0;
     position: relative;
-    padding-right: 70px;
-    padding-left: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
     width: auto;
+  }
+  @media (max-width: 568.99px) {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 `;
 const TitleAbout = styled.h2`
@@ -118,7 +121,7 @@ export default function AboutLayout(props) {
           <TitleProject>{props.title}</TitleProject>
           <Info>Year</Info>
           <Text>{props.year}</Text>
-          <Info>Course</Info>
+          <Info>{props.info}</Info>
           <Text>{props.course}</Text>
           <Info>Tags</Info>
           <Text>{props.tags}</Text>
