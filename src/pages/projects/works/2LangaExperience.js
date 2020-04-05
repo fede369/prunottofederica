@@ -57,6 +57,7 @@ export default function LangaExperience() {
           cover={cover[0]}
           title="LangaExperience"
           year="2018"
+          info="Course"
           course="Strategies and Economic Project"
           tags="UX, UI, business plan"
           about="In the territory of Alba and “le Langhe” there is a very high 

@@ -75,6 +75,7 @@ export default function DarkDreams() {
           cover={cover[0]}
           title="Dark Dreams"
           year="2019"
+          info="Course"
           course="Creative Coding"
           tags="UI, UX, development"
           about="The aim of the project is to provide the experience of a blind man’s dreams. 

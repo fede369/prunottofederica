@@ -28,6 +28,9 @@ const Gallery = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (max-width: 568.99px) {
+    margin-top: 30px;
+  }
 `;
 
 const Image1 = styled.div`
@@ -55,6 +58,7 @@ export default function Mym() {
           cover={cover[0]}
           title="MYM"
           year="2019"
+          info="Course"
           course="Project carried out with Maria Anghileri"
           tags="UI, graphic design"
           about="MYM is the graphical interface for a training application. 

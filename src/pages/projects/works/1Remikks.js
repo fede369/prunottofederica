@@ -57,6 +57,7 @@ export default function Remikks() {
           cover={cover[0]}
           title="Remikks"
           year="2017"
+          info="Course"
           course="Metadesign – Studio"
           tags="UX, UI, design research"
           about="“REMIKKS” is an application concerning musical events, 

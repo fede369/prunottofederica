@@ -81,6 +81,7 @@ export default function AffidoAnziani() {
           cover={cover[0]}
           title="Affido Anziani"
           year="2019"
+          info="Course"
           course="Final Synthesis Design Studio"
           tags="Communication system​"
           about="The “Affido anziani” project involves the realization of a communication 
@@ -102,7 +103,7 @@ export default function AffidoAnziani() {
           <TitleSection>4. Stimulate</TitleSection>
           <Image1 style={{ backgroundImage: `url(${pics[3]})` }} />
           <Image1
-            style={{ backgroundImage: `url(${pics[4]})`, height: "80vh" }}
+            style={{ backgroundImage: `url(${pics[4]})`, height: "60vh" }}
           ></Image1>
         </Gallery>
         <MenuProjects />

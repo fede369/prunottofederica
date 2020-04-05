@@ -34,6 +34,9 @@ const Gallery = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (max-width: 568.99px) {
+    margin-top: 10px;
+  }
 `;
 
 const Image1 = styled.div`
@@ -76,6 +79,7 @@ export default function PersonalWebsite() {
           cover={cover[0]}
           title="Personal Website"
           year="2018"
+          info="Course"
           course="Principles of Computer Science and Networking"
           tags="Web design"
           about="The aim of the project is to create a personal web page. 
