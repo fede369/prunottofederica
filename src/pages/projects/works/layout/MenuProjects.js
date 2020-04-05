@@ -78,6 +78,46 @@ export default function MenuProjects() {
           backgroundImage={require("../../../../assets/images/project6/cover.png")}
         />
       </MyLink>
+      <MyLink to="/mise">
+        <ProjectCard
+          title="MISE"
+          year="2020"
+          description="An identity project to enhance the Ministry of Economic Development"
+          backgroundImage={require("../../../../assets/images/project7/cover.png")}
+        />
+      </MyLink>
+      <MyLink to="/consemi">
+        <ProjectCard
+          title="Consemi"
+          year="2020"
+          description="An iconic visual element that represents the values and identity of CONSEMI - Seed House of the Veneto"
+          backgroundImage={require("../../../../assets/images/project8/cover.png")}
+        />
+      </MyLink>
+      <MyLink to="/saccisica">
+        <ProjectCard
+          title="Saccisica"
+          year="2020"
+          description="Ideation and creation of the logo and the visual identity of Saccisica"
+          backgroundImage={require("../../../../assets/images/project9/cover.png")}
+        />
+      </MyLink>
+      <MyLink to="/posterhero">
+        <ProjectCard
+          title="Poster Heroes"
+          year="2020"
+          description='Realization of a poster for the Posterheroes contest on the theme of "decent work"'
+          backgroundImage={require("../../../../assets/images/project10/cover.png")}
+        />
+      </MyLink>
+      <MyLink to="/dreamboard">
+        <ProjectCard
+          title="Dreamboard"
+          year="2020"
+          description='Creation of the home page for the Dreamboard application'
+          backgroundImage={require("../../../../assets/images/project11/cover.png")}
+        />
+      </MyLink>
     </ContainerMenuProjects>
   );
 }
