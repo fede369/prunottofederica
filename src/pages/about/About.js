@@ -469,7 +469,7 @@ export default function About() {
                   width: "55px",
                   marginRight: "15px"
                 }}
-                href="https://www.instagram.com/fedeprunotto/"
+                href="https://www.instagram.com/camouflagedesignstudio/"
               >
                 <Img src={require("../../assets/icon/insta.svg")} />
               </Link>
