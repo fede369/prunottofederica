@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import pdf from "../../assets/cv_Federica_Prunotto_en.pdf";
+import pdf from "../../assets/Federica Prunotto_CV_EN.pdf";
 import { useSpring, animated } from "react-spring";
 import { useGesture } from "react-with-gesture";
 
