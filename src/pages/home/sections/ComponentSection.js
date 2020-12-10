@@ -52,30 +52,6 @@ const Title = styled.h1`
     margin: 0 0 50px;
   }
 `;
-const ContainerRow = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 50px;
-  @media (max-width: 1000px) {
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-`;
-const ContainerRow1 = styled.div`
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 50px;
-  @media (max-width: 1000px) {
-    flex-direction: column-reverse;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-`;
 
 const MyLink = styled(Link)`
   text-decoration: none;
